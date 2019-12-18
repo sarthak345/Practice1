@@ -1,0 +1,35 @@
+Collection(I)(1.2v)
+===================
+To represent group of individual objects in to single entity,we should go for collection .
+Predefined methods
+------------------
+1. boolean add(Object o);
+2. boolean addAll(Collection c);
+3. boolean remove(Object o);
+4. boolean removeAll(Collection c);
+5. boolean retainAll(Collection c);
+6. boolean contains(Object o);
+7. boolean contaisAll(Collecton c);
+8. boolean isEmpty();
+9. int size();
+10. void clear();
+11. Object[] toArray();
+12.Iterator iterator();
+
+
+List(I)
+========
+Here dupicates are allowed.
+Insertion order is preserved.
+Index play very important in List.
+
+methods
+------
+1. boolean add(int index,Object o);
+2. boolean addAll(int index, Collection c);
+3. Object get(int index);
+4. Object remove(int index);
+5. Object set(int index,Object o);
+6. int indexOf(Object o);-> return first occurance of 'o'.
+7. int lastIndexOf(Object o);
+8. ListIterator listIterator();

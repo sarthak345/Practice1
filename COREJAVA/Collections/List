@@ -1,0 +1,39 @@
+List(I)
+========
+Here dupicates are allowed.
+Insertion order is preserved.
+Index play very important in List.
+
+methods
+------
+1. boolean add(int index,Object o);
+2. boolean addAll(int index, Collection c);
+3. Object get(int index);
+4. Object remove(int index);
+5. Object set(int index,Object o);
+6. int indexOf(Object o);-> return first occurance of 'o'.
+7. int lastIndexOf(Object o);
+8. ListIterator listIterator();
+
+ArrayList
+==========
+it implements List interface.
+Growable in nature.
+It represent group of individual object in single entity where duplicate are allowed and insertion order preserved.
+Null insertion possible.
+Heterogeneous objects allowed.
+Implements serializable and clonable interface.To provide support for hold and transfer objects from one tire to another tire.
+Implements RandomAcess interface.
+For retrival of random element it is best choice.
+
+Constructor
+-----------
+1. Arraylist al=new ArrayList();
+Create a empty arrayList object with intial default capacity 10. When it reaches its maximum capacity it increases its size by 
+New Capacity = (currentCapacity*3/2)+1.
+
+2. ArrayList al=new ArrayList(Int intialcapacity);
+Creates empty arraylist object with intial capacity specified in the parameter.
+
+3. ArrayList al=new ArrayList(Collection c);
+Creates equivalent arraylist object for given collection.It is used for inter conversation between collection objects.

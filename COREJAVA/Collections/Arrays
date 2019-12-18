@@ -1,0 +1,33 @@
+ARRAYS
+=======
+1.Arrays are fixed in size.
+2.It is indexed based collection.
+3.Contains only homogeneous data.
+Student[] s=new Student[1000];
+s[0]=new Student(); (Correct)
+s[1]=new Customer();(Incorrect)
+4.We can represent huge number of data elements in a single variable.
+Limitations
+===========
+1.Fixed in size,can't extends it size. for that we have to create a new array and copy the old element to the new array.
+2.Doesn't provide any ready made method support like other data structure(Collections).
+
+DIFFERENCE BETWEEN ARRAYS AND COLLECTIONs
+-----------------------------------------
+ARRAYS
+------
+1.Arrays are fixed in size.(Cant't increase size )
+2.Doesn't implemented based on some standard data structure so it doesn't provide ready made method support like collctions.
+3.Memory point of view arrays are not recommended to use.
+4.Performance point of view recommended to use.
+5.It hold only homogeneous data element.
+6.It contains both Object type and primitive type.
+
+COLLECTION
+-----------
+1.Collection are growable in nature.
+2.Implemented based on some standard data structure ,it provides ready made method support to perform operations.
+3.Memory point of view Collection are recommended to use.
+4.Performance point of view not recommended to use.
+5.It holds both homogeneous and heterogeneous data element.
+6.It contains only Object type data.
